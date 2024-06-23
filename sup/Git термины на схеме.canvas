@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"a800dbfefe61f70a","x":-240,"y":260,"width":250,"height":60,"type":"text","text":"Push"},
+		{"id":"441e7afb4deb0d58","type":"text","text":"Удалённый Git","x":135,"y":360,"width":250,"height":60},
+		{"id":"7630cc4e6f8d882c","type":"text","text":"Pull","x":-240,"y":440,"width":250,"height":60},
+		{"id":"59bbd38f344a9d8e","x":-490,"y":120,"width":250,"height":60,"type":"text","text":"Локальный Git"},
+		{"id":"a0dbb74b08fc8cc2","type":"text","text":"Update","x":-40,"y":120,"width":250,"height":60},
+		{"id":"4f095034fa8dfdfd","type":"text","text":"Commit","x":-680,"y":-40,"width":250,"height":50}
+	],
+	"edges":[
+		{"id":"84757943f9093421","fromNode":"4f095034fa8dfdfd","fromSide":"right","toNode":"59bbd38f344a9d8e","toSide":"top"},
+		{"id":"c418830d6d14b4f2","fromNode":"59bbd38f344a9d8e","fromSide":"bottom","toNode":"a800dbfefe61f70a","toSide":"left"},
+		{"id":"587506218a524c5e","fromNode":"a800dbfefe61f70a","fromSide":"right","toNode":"441e7afb4deb0d58","toSide":"top"},
+		{"id":"a51daf58ea4a2828","fromNode":"441e7afb4deb0d58","fromSide":"bottom","toNode":"7630cc4e6f8d882c","toSide":"right"},
+		{"id":"382045a16b24a6be","fromNode":"7630cc4e6f8d882c","fromSide":"left","toNode":"59bbd38f344a9d8e","toSide":"left"},
+		{"id":"2fb81b000f87abf5","fromNode":"59bbd38f344a9d8e","fromSide":"right","toNode":"a0dbb74b08fc8cc2","toSide":"left"}
+	]
+}
